@@ -28,14 +28,14 @@ body {
 
 #container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 24px;
 }
 
 #container img {
   border-radius: 50%;
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 300px;
 }
 
 #container p {
