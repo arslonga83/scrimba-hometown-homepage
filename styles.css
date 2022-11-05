@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#header {
+  background: url('./images/city.jpg');
+  background-size: cover;
+  margin-top: 0;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header h1, #header h4 {
+  margin: 24;
+  max-width: 500px;
+  background: lightgray;
+  padding: 8px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+#container img {
+  border-radius: 50%;
+  height: 100px;
+  width: 200px;
+}
+
+#container p {
+  width: 250px;
+}
+
+#guide-card {
+  display: flex;
+  border: 1px solid black;
+  width: 600px;
+  margin: 48px auto;
+}
+
+#guide-card img {
+  margin: 16px;
+}
