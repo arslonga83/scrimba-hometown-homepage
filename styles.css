@@ -54,11 +54,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 350px;
 }
 
 #guide-card {
   display: flex;
+  gap: 16px;
   border: 2px solid #23231B;
   border-radius: 10px;
   width: 600px;
@@ -70,5 +71,9 @@ body {
 #guide-card img {
   border: 2px solid #23231B;
   border-radius: 10px;
+}
+
+#guide-card p {
+  font-style: italic;
 }
 
