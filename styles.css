@@ -2,53 +2,73 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  font-family: 'Sawarabi Mincho', serif;
+  color: #23231B;
+  background: #C0C9CD;
 }
 
 #header {
-  background: url('./images/city.jpg');
+  background: url('./images/banner.jpg');
   background-size: cover;
   margin-top: 0;
-  height: 200px;
+  padding: 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.25rem;
 }
 
 #header h1, #header h4 {
-  margin: 24;
+  margin: 16px;
   max-width: 500px;
-  background: lightgray;
-  padding: 8px;
+  background: #203F4D;
+  color: #C0C9CD;
+  padding: 16px;
+  border-radius: 10px;
+  border: 2px solid #C0C9CD;;
 }
 
 #main {
   display: flex;
   flex-direction: column;
+  padding: 16px;
+  
 }
 
 #container {
   display: flex;
   justify-content: space-around;
   gap: 24px;
+  margin-top: 24px;
 }
 
 #container img {
   border-radius: 50%;
   height: 200px;
   width: 300px;
+  border: 2px solid #23231B;
 }
 
-#container p {
+.activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 250px;
 }
 
 #guide-card {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid #23231B;
+  border-radius: 10px;
   width: 600px;
-  margin: 48px auto;
+  margin: 50px auto;
+  padding: 24px;
+  background: #5D7B8A;
 }
 
 #guide-card img {
-  margin: 16px;
+  border: 2px solid #23231B;
+  border-radius: 10px;
 }
+
